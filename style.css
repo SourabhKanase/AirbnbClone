@@ -29,12 +29,15 @@ form > button {
   border: none;
   background-color: red;
   color: white;
+  width: fit-content;
+  padding: 10px 10px;
   border-radius: 15px;
+  margin-right: 10px;
 }
 form {
   display: flex;
   gap: 2.5rem;
-  width: 50%;
+  width: 47%;
   background-color: white;
   padding: 10px;
   padding-left: 20px;

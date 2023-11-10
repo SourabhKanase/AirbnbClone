@@ -1,0 +1,44 @@
+*{
+    padding: 3px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#navComponentTwo{
+    display: flex;
+    gap:1.2rem;
+    border: 1px solid gray;
+    padding: 8px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 4px gray; 
+}
+#navComponentThree{
+    display: flex;
+    gap:1.2rem;
+}
+.grid-container{
+    margin-right: 30px;
+    margin-left: 30px;
+    display:grid;
+    grid-template-columns: 6fr 4fr;
+    gap:3rem;
+}
+.card{
+    display: flex;
+    border: 1px solid black;
+    gap:0.5rem;
+    margin-top: 10px;
+    padding: 15px;
+    border-radius: 10px;
+    align-items: center;
+}
+.card>img{
+    width:50%;
+    height: 50%;
+}
+.three{
+    display: flex;
+    align-items: center;
+}
