@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./LastPage.css">
+</head>
+<body>
+    <section id="nav">
+        <img src="assets/Vector (2).png">
+        <div class="inputdiv">
+            <input type="text" placeholder="Start your search">
+            <div style="width: fit-content; padding: 5px; background-color: #DE3151; color: white; border-radius: 20px; align-self: center;">
+                <img src="./assets/Icon (2).png">
+            </div>
+        </div>
+        <div class="navicons">
+            <p>Become a Host</p>
+            <img src="assets/globe (1).png">
+            <img src="assets/Profile Dropdown (1).png">
+        </div>
+    </section>
+    <div class="hotelname">
+      <h1 id="hotelname"></h1>
+      <div style="display: flex; align-items: center;gap: 0.5rem;">
+        <img src="assets/star.png">
+        <p id="rating"></p>
+        <b><u id="reviews"></u></b>
+      </div>
+    </div>
+
+    <div class="hotelimages">
+      <div id="firstImage">
+        
+      </div>
+      <div id="lastfourImages">
+         
+      </div>
+    </div>
+    <section class="middlesection">
+        <div class="divone">
+            <h2 id="hotelnamerequired"></h2>
+            <p id="hotelinfo"></p>
+            <hr>
+            <div class="info">
+                <img src="./assets/Icon (3).png">
+                <div>
+                    <b>Entire Home</b>
+                    <p>You’ll have the apartment to yourself</p>
+                </div>
+            </div>
+            <div class="info">
+                <img src="./assets/Icon (4).png">
+                <div>
+                    <b>Enhanced Clean</b>
+                    <p>This Host committed to Airbnb’s 5-step enhanced cleaning process.<b><u> Show more</u></b></p>
+                </div>
+            </div>
+            <div class="info">
+                <img src="./assets/Icon (5).png">
+                <div>
+                    <b>Self Check-in</b>
+                    <p>Check yourself in with the keypad.</p>
+                </div>
+            </div>
+            <div class="info">
+                <img src="./assets/calendar.png">
+                <div>
+                    <b id="cancellationPolicy"></b>
+                </div>
+            </div>
+
+            <p>Come and stay in this superb duplex T2, in the heart of the historic center of Bordeaux.Spacious and bright, in a real Bordeaux building in exposed stone, you will enjoy all the charms of the city thanks to its ideal location. Close to many shops, bars and restaurants, you can access the apartment by tram A and C and bus routes 27 and 44....</p>
+            
+            <h3>Here You Will Stay</h3>
+            <div id="stayimg"></div>
+            <div id="placeoffers">
+                <img src="./assets/Where you'll sleep.png">
+            </div>
+            <img src="./assets/Dates.png">
+        </div>   
+        <div id="carddiv" style="width: 360px; height: 400px; padding: 30px 15px;display: flex;flex-direction: column;gap:1.3rem;border-radius: 10px;box-shadow: 0px 0px 10px gray;margin-top: 30px; ">
+            <div style="display: flex; align-items: center;justify-content: space-between;">
+                <span id="price"></span>
+                <span id="ratingandreview" style="display: flex; align-items: center;justify-content: space-between;"></span>
+            </div>
+            <div style="display: grid; grid-template-columns: 5fr 5fr;">
+                <span style="border: 1px solid  gainsboro; height: 50px; display: flex;align-items: center;justify-content: space-around;" id="checkIn"></span>
+                <span style="border: 1px solid  gainsboro; height: 50px;  display: flex;align-items: center;justify-content: space-around;" id="checkout"></span>
+                <span style="border: 1px solid  gainsboro; height: 50px; width: 200% !important;  display: flex;align-items: center;justify-content: space-around;" id="quests"></span>
+            </div>
+            <button style="padding: 8px; border-radius: 6px;background-color: #DE3151; color: white; border: none;" id="button">Reserve</button>
+            <p style="display: flex; align-items: center;justify-content: space-between;font-family: Inter;font-size: 16px;font-style: normal;font-weight: 400;line-height: 20px; color: #6B7280; display: flex; justify-content: space-around;" >You won't be charged yet</p>
+            <div style="display: flex;align-items: center;justify-content: space-between;">
+              <span id="x"></span>
+              <span id="y"></span>
+            </div>
+            <div style="display: flex;align-items: center;justify-content: space-between;">
+                <span id="a"></span>
+                <span id="b"></span>
+            </div>
+            
+             <div style="display: flex;align-items: center;justify-content: space-between;">
+                <b id="c">Total</b>
+                <span id="d"></span>
+            </div>
+
+        </div>
+
+    </section>
+    <div style="width: 90%; margin: auto;">
+        <h2>Where you'll be</h2>
+        <div id="displayiframehere"></div>
+    
+        <div id="hotel"></div>
+        <p>Very dynamic and appreciated district by the people of Bordeaux thanks to rue St James and place Fernand Lafargue. Home to many historical monuments such as the Grosse Cloche, the Porte de Bourgogne and the Porte Cailhau, and cultural sites such as the Aquitaine Museum.</p>
+        <b><u>Show more...</u></b>
+    </div>
+
+    <div id="sectionseven">
+        <div class="footerdiv">
+            <b>Support</b>
+            <p>Help information</p>
+            <p>Safety information</p>
+            <p>cancellation options</p>
+            <p>Our COVID-19 Response</p>
+            <p>Supporting People with disablities</p>
+            <p>Report a neighborhood concern</p>
+        </div>
+        <div class="footerdiv"> 
+            <b>Community</b>
+            <p>Airbnb org:Disaster relief housing</p>
+            <p>Support :Afaghan Refugees</p>
+            <p>Celebrating diversity & belonging</p>
+            <p>Combinating discrimination</p>
+        </div>
+        <div class="footerdiv">
+            <b>Hosting</b>
+            <p>Try Hosting</p>
+            <p>SAirCover:hosting resources</p>
+            <p>Explore hosting resources</p>
+            <p>Visit our community</p>
+            <p>How to host responsibly</p>
+        </div>
+        <div class="footerdiv">
+            <b>About</b>
+            <p>Newsroom</p>
+            <p>Learn about new features</p>
+            <p>Letter from our founders</p>
+            <p>Carrers</p>
+            <p>Investors</p>
+            <p>Airbnb Luxe</p>
+        </div>
+      </div>
+      <footer class="last">
+        <img src="./assets/Sub-Footer.png">
+      </footer>
+    <script src="./lastScript.js"></script>
+</body>
+</html>

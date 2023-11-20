@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="style2.css" />
   </head>
   <body>
@@ -23,15 +24,28 @@
         </div>
       </nav>
     </section>
-    <section id="buttonsection"></section>
+    <section id="buttonsection">
+        <button onclick="Airconditioning()">Air conditioning</button>
+        <button onclick="Wifi()"> Wifi</button>
+        <button onclick="kitchen()">Kitchen</button>
+        <button onclick="Selfcheckin()">Self check-in</button>
+        <button onclick="Heating()">Heating</button>
+        <button onclick="parking()">Parking</button>
+        <button onclick="Ratinggreaterthan4()">Rating greater than 4</button>
+        <button onclick="Ratinglessthan4()">Rating less than 4</button>
+    </section>
+    <span id="displayNoOfStays"></span>
     <section class="grid-container">
       <div id="cards">
-        <span id="displayNoOfStays"></span>
-      </div>
-      <div>
         
       </div>
+      <div id="map">
+        <!-- <iframe src="https://maps.google.com/maps?q=35.856737, 10.606619&z=15&output=embed" width="600" height="800" frameborder="0" style="border:0"></iframe> -->
+      </div>
     </section>
+    <script async
+     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBc47EdmbbwpRpLDq7f7f6wezLZsePhtWw&callback=Function.prototype">
+    </script>
     <script src="./script2.js"></script>
   </body>
 </html>
